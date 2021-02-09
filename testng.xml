@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Testdemo1">
+    <classes>
+     <!-- <class name="com.test.MavenTest.demoTest"/>-->
+      <!--<class name="com.test.MavenTest.AppTest"/>-->
+     <!-- <class name="com.test.MavenTest.demo"/>-->
+      <class name="demo.zhongpai_creatProject"/>
+    </classes>
+   <!--   <packages>-->
+		<!--接口case -->
+	<!-- 	<package name="testng.*"/>	-->
+	<!--  </packages>-->
+   </test> <!-- Test -->
+
+ <!--  <test name="Testdemo2">
+    <classes>
+    
+      <class name="demo.zhongpai_creatProject"/>
+    </classes>
+  
+   </test> -->
+
+
+
+
+   <!--监听报告-->
+    <listeners> 
+     <listener class-name="Listener.ExtentTestNGIReporterListener"/> 
+   </listeners> 
+   
+</suite> <!-- Suite -->
