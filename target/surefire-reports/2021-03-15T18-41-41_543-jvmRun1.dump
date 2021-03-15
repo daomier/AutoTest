@@ -1,0 +1,76 @@
+# Created at 2021-03-15T18:41:44.075
+java.lang.Error: Unresolved compilation problems: 
+	The import com.aventstack cannot be resolved
+	The import com.aventstack cannot be resolved
+	The import com.aventstack cannot be resolved
+	The import com.aventstack cannot be resolved
+	The import com.aventstack cannot be resolved
+	The import com.aventstack cannot be resolved
+	The import com.aventstack cannot be resolved
+	The import com.aventstack cannot be resolved
+	The import org.testng cannot be resolved
+	The import org.testng cannot be resolved
+	The import org.testng cannot be resolved
+	IReporter cannot be resolved to a type
+	ExtentReports cannot be resolved to a type
+	The method generateReport(List<XmlSuite>, List<ISuite>, String) of type ExtentTestNGIReporterListener must override or implement a supertype method
+	XmlSuite cannot be resolved to a type
+	ISuite cannot be resolved to a type
+	ISuite cannot be resolved to a type
+	ISuiteResult cannot be resolved to a type
+	ExtentTest cannot be resolved to a type
+	ExtentReports cannot be resolved to a type
+	ISuiteResult cannot be resolved to a type
+	ExtentTest cannot be resolved to a type
+	ITestContext cannot be resolved to a type
+	ExtentReports cannot be resolved to a type
+	Status cannot be resolved to a variable
+	Status cannot be resolved to a variable
+	Status cannot be resolved to a variable
+	Status cannot be resolved to a variable
+	Status cannot be resolved to a variable
+	ExtentReports cannot be resolved to a type
+	ExtentHtmlReporter cannot be resolved to a type
+	ExtentHtmlReporter cannot be resolved to a type
+	ResourceCDN cannot be resolved to a variable
+	ChartLocation cannot be resolved to a variable
+	Theme cannot be resolved to a variable
+	ExtentReports cannot be resolved to a type
+	ExtentReports cannot be resolved to a type
+	ExtentReports cannot be resolved to a type
+	ExtentReports cannot be resolved to a type
+	ExtentTest cannot be resolved to a type
+	IResultMap cannot be resolved to a type
+	Status cannot be resolved to a type
+	TestAttribute cannot be resolved to a type
+	ExtentTest cannot be resolved to a type
+	ITestResult cannot be resolved to a type
+	The constructor TreeSet<ITestResult>(new Comparator<ITestResult>(){}) is undefined
+	ITestResult cannot be resolved to a type
+	The type new Comparator<ITestResult>(){} must implement the inherited abstract method Comparator<ITestResult>.compare(ITestResult, ITestResult)
+	ITestResult cannot be resolved to a type
+	ITestResult cannot be resolved to a type
+	ITestResult cannot be resolved to a type
+	ITestResult cannot be resolved to a type
+	ExtentReports cannot be resolved to a type
+	Reporter cannot be resolved
+
+	at Listener.ExtentTestNGIReporterListener.<init>(ExtentTestNGIReporterListener.java:3)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.testng.internal.ClassHelper.newInstance(ClassHelper.java:65)
+	at org.testng.TestNG.addListeners(TestNG.java:1012)
+	at org.testng.TestNG.initializeConfiguration(TestNG.java:976)
+	at org.testng.TestNG.run(TestNG.java:1102)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+

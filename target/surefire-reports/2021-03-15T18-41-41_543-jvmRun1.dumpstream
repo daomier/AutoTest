@@ -1,0 +1,58 @@
+# Created at 2021-03-15T18:41:44.316
+Unresolved compilation problems: 
+	The import com.aventstack cannot be resolved
+	The import com.aventstack cannot be resolved
+	The import com.aventstack cannot be resolved
+	The import com.aventstack cannot be resolved
+	The import com.aventstack cannot be resolved
+	The import com.aventstack cannot be resolved
+	The import com.aventstack cannot be resolved
+	The import com.aventstack cannot be resolved
+	The import org.testng cannot be resolved
+	The import org.testng cannot be resolved
+	The import org.testng cannot be resolved
+	IReporter cannot be resolved to a type
+	ExtentReports cannot be resolved to a type
+	The method generateReport(List<XmlSuite>, List<ISuite>, String) of type ExtentTestNGIReporterListener must override or implement a supertype method
+	XmlSuite cannot be resolved to a type
+	ISuite cannot be resolved to a type
+	ISuite cannot be resolved to a type
+	ISuiteResult cannot be resolved to a type
+	ExtentTest cannot be resolved to a type
+	ExtentReports cannot be resolved to a type
+	ISuiteResult cannot be resolved to a type
+	ExtentTest cannot be resolved to a type
+	ITestContext cannot be resolved to a type
+	ExtentReports cannot be resolved to a type
+	Status cannot be resolved to a variable
+	Status cannot be resolved to a variable
+	Status cannot be resolved to a variable
+	Status cannot be resolved to a variable
+	Status cannot be resolved to a variable
+	ExtentReports cannot be resolved to a type
+	ExtentHtmlReporter cannot be resolved to a type
+	ExtentHtmlReporter cannot be resolved to a type
+	ResourceCDN cannot be resolved to a variable
+	ChartLocation cannot be resolved to a variable
+	Theme cannot be resolved to a variable
+	ExtentReports cannot be resolved to a type
+	ExtentReports cannot be resolved to a type
+	ExtentReports cannot be resolved to a type
+	ExtentReports cannot be resolved to a type
+	ExtentTest cannot be resolved to a type
+	IResultMap cannot be resolved to a type
+	Status cannot be resolved to a type
+	TestAttribute cannot be resolved to a type
+	ExtentTest cannot be resolved to a type
+	ITestResult cannot be resolved to a type
+	The constructor TreeSet<ITestResult>(new Comparator<ITestResult>(){}) is undefined
+	ITestResult cannot be resolved to a type
+	The type new Comparator<ITestResult>(){} must implement the inherited abstract method Comparator<ITestResult>.compare(ITestResult, ITestResult)
+	ITestResult cannot be resolved to a type
+	ITestResult cannot be resolved to a type
+	ITestResult cannot be resolved to a type
+	ITestResult cannot be resolved to a type
+	ExtentReports cannot be resolved to a type
+	Reporter cannot be resolved
+
+
