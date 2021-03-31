@@ -20,7 +20,7 @@ public class demo1 {
     }
     
     @Test
-    public void test2自()
+    public void test2()
     {
         System.out.println("at test");
         Reporter.log("这是testng美化报告的一个失败测试用例");

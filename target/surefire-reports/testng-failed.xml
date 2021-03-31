@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Listener.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test name="Testdemo1(failed)">
+    <classes>
+      <class name="demo.zhongpai_creatProject">
+        <methods>
+          <include name="setUp"/>
+          <include name="test1_loginTest"/>
+          <include name="test2_shangchuan"/>
+        </methods>
+      </class> <!-- demo.zhongpai_creatProject -->
+    </classes>
+  </test> <!-- Testdemo1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
