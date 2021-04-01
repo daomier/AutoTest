@@ -1,32 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 19.101 s <<< FAILURE! - in TestSuite
-test1_loginTest(demo.zhongpai_creatProject)  Time elapsed: 6.023 s  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-chrome not reachable
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 6.332 s <<< FAILURE! - in TestSuite
+setUp(demo.zhongpai_creatProject)  Time elapsed: 5.314 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from disconnected: received Inspector.detached event
   (Session info: chrome=68.0.3440.7)
   (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
+Command duration or timeout: 4.09 seconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ICTR-WANGLU', ip: '10.20.4.170', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\wanglu\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:24692}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.7, webStorageEnabled: true}
-Session ID: e2412f29c9eaa31591f965ed7ba5e2a8
-*** Element info: {Using=name, value=account}
-	at demo.zhongpai_creatProject.test1_loginTest(zhongpai_creatProject.java:77)
-
-test2_shangchuan(demo.zhongpai_creatProject)  Time elapsed: 6.008 s  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-chrome not reachable
-  (Session info: chrome=68.0.3440.7)
-  (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ICTR-WANGLU', ip: '10.20.4.170', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.16 (16ed95b41bb05..., userDataDir: C:\Users\wanglu\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:24692}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.7, webStorageEnabled: true}
-Session ID: e2412f29c9eaa31591f965ed7ba5e2a8
-*** Element info: {Using=xpath, value=//a[@href='/CrowdphotoWeb/task/taskManage']/span}
-	at demo.zhongpai_creatProject.test2_shangchuan(zhongpai_creatProject.java:98)
+Driver info: driver.version: ChromeDriver
+	at demo.zhongpai_creatProject.setUp(zhongpai_creatProject.java:45)
 
