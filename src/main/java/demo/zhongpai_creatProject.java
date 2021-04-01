@@ -2,13 +2,14 @@ package demo;
 
 import java.util.List;
 
-//import org.eclipse.jetty.util.log.Log;
 //import org.junit.Assert;
 //import org.junit.BeforeClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -32,6 +33,7 @@ public class zhongpai_creatProject {
 	static StringBuffer verificationErrors = new StringBuffer();
 	static String projectname = "自动化测试项目" + System.currentTimeMillis();
 //	static int tital,tital2;
+	private static final Logger log = LoggerFactory.getLogger(zhongpai_creatProject_test.class);
 
 	@BeforeClass
 	public static void setUp() throws Exception {
@@ -50,7 +52,7 @@ public class zhongpai_creatProject {
 			list = xlsMain.readXls();
 		} catch (Exception e) {
 //			org.eclipse.jetty.util.log.Logger log = Log.getLog();
-
+			log.info("这是testng美化报告的一个失败测试用例");
 //			log.info("one.java --  login --- file not found。");
 //					Reporter.log("这是testng美化报告的一个失败测试用例");
 			e.printStackTrace();

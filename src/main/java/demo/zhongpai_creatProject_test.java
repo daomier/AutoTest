@@ -2,7 +2,6 @@ package demo;
 
 import java.util.List;
 
-//import org.eclipse.jetty.util.log.Log;
 //import org.junit.Assert;
 //import org.junit.BeforeClass;
 import org.openqa.selenium.By;
@@ -52,7 +51,7 @@ public class zhongpai_creatProject_test {
 			XlsDto xls = null;
 			list = xlsMain.readXls();
 		} catch (Exception e) {
-			log.info("one.java --  login --- file not found。");
+			log.info("这是testng美化报告的一个失败测试用例");
 
 //					Reporter.log("这是testng美化报告的一个失败测试用例");
 			e.printStackTrace();
