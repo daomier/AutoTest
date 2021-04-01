@@ -160,7 +160,7 @@ public class zhongpai_creatProject {
 		Thread.sleep(2000);
 // 打开构建点位
 		driver.findElement(By.id("createPointId")).click();
-
+		Thread.sleep(2000);
 //				Selector checkElement=new Selector();
 		By seletor = new By.ByXPath("//div/button[@class='btn btn-zp']");
 
@@ -181,17 +181,14 @@ public class zhongpai_creatProject {
 //	构建点位	第一步  导入excel
 //				  driver.findElement(By.id("excelContrastRootwizard")).click(); 
 		Thread.sleep(2000);
-		String a = driver.findElement(By.xpath("//div[@id='excelContrastStepDrag']//a[@id='importExcelField']"))
-				.getText();
+		String a = driver.findElement(By.xpath("//div[@id='excelContrastStepDrag']//a[@id='importExcelField']")).getText();
 		driver.findElement(By.xpath("//div[@id='excelContrastStepDrag']//a[text()='导入Excel字段']")).click();
 		// div[@id="excelContrastStepDrag"]//a[text()="导入Excel字段"]
 		System.out.println("===========结束===================================");
 		System.out.println(a);
 		Thread.sleep(2000);
 //				  关闭弹窗
-		driver.findElement(By.xpath(
-				"//div[@class='jconfirm-box jconfirm-hilight-shake jconfirm-type-default jconfirm-type-animated']//button[text()='确定']"))
-				.click();
+		driver.findElement(By.xpath("//div[@class='jconfirm-box jconfirm-hilight-shake jconfirm-type-default jconfirm-type-animated']//button[text()='确定']")).click();
 		Thread.sleep(200);
 //				点击锁定  
 		driver.findElement(By.xpath("//a[text()='点击锁定']")).click();
@@ -202,9 +199,7 @@ public class zhongpai_creatProject {
 
 //			 js.executeScript("arguments[0].click();",driver.findElement(By.xpath("//div[@class='modal-footer']//a[text()='下一步']")));
 
-		driver.findElement(By.xpath(
-				"//div[@id='excelContrastStepDrag']//div[@id='excelContrastRootwizard']//li[3]/a[@href='javascript:void(0);']"))
-				.click();
+		driver.findElement(By.xpath("//div[@id='excelContrastStepDrag']//div[@id='excelContrastRootwizard']//li[3]/a[@href='javascript:void(0);']")).click();
 //		    driver.findElement(By.xpath("//div[@class='modal-footer']//a[text()='下一步']")).click();  
 		Thread.sleep(200);
 
@@ -217,26 +212,20 @@ public class zhongpai_creatProject {
 		driver.findElement(By.xpath(" //tr[@id='station_radio']/td[1]/a[@class='btn btn-sm btn-primary']")).click();
 		Thread.sleep(200);
 //			  下一步
-		driver.findElement(By.xpath(
-				"//div[@id='excelContrastStepDrag']//div[@id='excelContrastRootwizard']//li[3]/a[@href='javascript:void(0);']"))
-				.click();
+		driver.findElement(By.xpath("//div[@id='excelContrastStepDrag']//div[@id='excelContrastRootwizard']//li[3]/a[@href='javascript:void(0);']")).click();
 
 		Thread.sleep(200);
 
 //	构建点位 第三步
 //		    设置比例	  下一步
-		driver.findElement(By.xpath(
-				"//div[@id='excelContrastStepDrag']//div[@id='excelContrastRootwizard']//li[3]/a[@href='javascript:void(0);']"))
-				.click();
+		driver.findElement(By.xpath("//div[@id='excelContrastStepDrag']//div[@id='excelContrastRootwizard']//li[3]/a[@href='javascript:void(0);']")).click();
 		Thread.sleep(200);
 
 //		构建点位 第四步    
 //		    点位转化 
 //			 关闭
 		Thread.sleep(10000);
-		driver.findElement(By.xpath(
-				"//div[@id='excelContrastStepDrag']//div[@id='excelContrastRootwizard']//li[4]/a[@href='javascript:;']"))
-				.click();
+		driver.findElement(By.xpath("//div[@id='excelContrastStepDrag']//div[@id='excelContrastRootwizard']//li[4]/a[@href='javascript:;']")).click();
 		Thread.sleep(2000);
 
 //		    关闭弹窗
@@ -249,16 +238,12 @@ public class zhongpai_creatProject {
 //		任务创建  第二步
 //	限制条件	  下一步
 //		driver.findElement(By.xpath("//form[@id='editTaskForm']//li[3]/a[@href='javascript:void(0);']")).click();
-		driver.findElement(By
-				.xpath("//form[@id='newAddTaskId']//div[@class='modal-footer']//li[3]/a[@href='javascript:void(0);']"))
-				.click();
+		driver.findElement(By.xpath("//form[@id='newAddTaskId']//div[@class='modal-footer']//li[3]/a[@href='javascript:void(0);']")).click();
 		Thread.sleep(500);
 
 //		任务创建  第三步
 //	点位列表	  下一步
-		driver.findElement(By
-				.xpath("//form[@id='newAddTaskId']//div[@class='modal-footer']//li[3]/a[@href='javascript:void(0);']"))
-				.click();
+		driver.findElement(By.xpath("//form[@id='newAddTaskId']//div[@class='modal-footer']//li[3]/a[@href='javascript:void(0);']")).click();
 		Thread.sleep(200);
 
 //		任务创建  第四步
@@ -296,8 +281,7 @@ public class zhongpai_creatProject {
 
 //		下一步
 //		driver.findElement(By.xpath("//form[@id='newAddTaskId']//div[@class='modal-footer']//li[3]/a[@href='javascript:void(0);']")).click();  
-		driver.findElement(By.xpath("//form[@id='newAddTaskId']//div[@class='modal-footer']//li[3]/a[text()='下一步']"))
-				.click();
+		driver.findElement(By.xpath("//form[@id='newAddTaskId']//div[@class='modal-footer']//li[3]/a[text()='下一步']")).click();
 		Thread.sleep(200);
 
 //		任务创建  第五步
@@ -311,8 +295,7 @@ public class zhongpai_creatProject {
 		System.out.println("===========添加文本控件===================================");
 //输入文本内容		
 		driver.findElement(By.xpath("//label[text()='文本']/parent::div/following-sibling::div/input")).clear();
-		driver.findElement(By.xpath("//label[text()='文本']/parent::div/following-sibling::div/input"))
-				.sendKeys("自动化文本测试");
+		driver.findElement(By.xpath("//label[text()='文本']/parent::div/following-sibling::div/input")).sendKeys("自动化文本测试");
 		Thread.sleep(200);
 
 //		切换异常页 
@@ -337,9 +320,7 @@ public class zhongpai_creatProject {
 //		driver.switchTo().frame(driver.findElement(By.xpath("//div[@id='execPersonAddBtn']/a[text()='添加']")));
 //		点击添加//div[@id='taskAddMsgPersonModal']//tr[1]/td[5]/a[@href='javascript:void(0);']
 //		driver.findElement(By.xpath("//div[@id='taskAddMsgPersonModal']//tr[1]/td[5]/a[text()='添加']")).click();
-		driver.findElement(
-				By.xpath("//div[@id='taskAddMsgPersonModal']//td[text()='王璐']//following-sibling::*/a[text()='添加']"))
-				.click();
+		driver.findElement(By.xpath("//div[@id='taskAddMsgPersonModal']//td[text()='王璐']//following-sibling::*/a[text()='添加']")).click();
 		Thread.sleep(200);
 //		保存
 //		driver.findElement(By.xpath("//div[@class='modal-footer']//following-sibling::*/a[text()='保存']")).click();
@@ -347,9 +328,7 @@ public class zhongpai_creatProject {
 		driver.findElement(By.xpath("//div[@class='modal-footer']//a[text()='保存']")).click();
 		Thread.sleep(1000);
 //		提交
-		driver.findElement(
-				By.xpath("//form[@id='newAddTaskId']//div[@class='modal-footer']//li[4]/a[@href='javascript:;']"))
-				.click();
+		driver.findElement(By.xpath("//form[@id='newAddTaskId']//div[@class='modal-footer']//li[4]/a[@href='javascript:;']")).click();
 		Thread.sleep(3000);
 //	    关闭弹窗
 		driver.findElement(By.xpath("//div/button[@class='btn btn-zp']")).click();

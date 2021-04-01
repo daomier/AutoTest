@@ -2,19 +2,19 @@
 <testng-results skipped="2" failed="0" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="5048" started-at="2021-04-01T03:25:15Z" finished-at="2021-04-01T03:25:20Z">
+  <suite name="Suite" duration-ms="15342" started-at="2021-04-01T03:20:11Z" finished-at="2021-04-01T03:20:26Z">
     <groups>
     </groups>
-    <test name="Testdemo1" duration-ms="5048" started-at="2021-04-01T03:25:15Z" finished-at="2021-04-01T03:25:20Z">
+    <test name="Testdemo1" duration-ms="15342" started-at="2021-04-01T03:20:11Z" finished-at="2021-04-01T03:20:26Z">
       <class name="demo.zhongpai_creatProject">
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:demo.zhongpai_creatProject@4590c9c3]" name="setUp" is-config="true" duration-ms="5029" started-at="2021-04-01T11:25:15Z" finished-at="2021-04-01T11:25:20Z">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:demo.zhongpai_creatProject@4590c9c3]" name="setUp" is-config="true" duration-ms="14532" started-at="2021-04-01T11:20:11Z" finished-at="2021-04-01T11:20:25Z">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created
 from disconnected: received Inspector.detached event
   (Session info: chrome=68.0.3440.7)
   (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4.09 seconds
+Command duration or timeout: 12.26 seconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ICTR-WANGLU', ip: '10.20.4.170', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
 Driver info: driver.version: ChromeDriver]]>
@@ -24,7 +24,7 @@ Driver info: driver.version: ChromeDriver]]>
 from disconnected: received Inspector.detached event
   (Session info: chrome=68.0.3440.7)
   (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4.09 seconds
+Command duration or timeout: 12.26 seconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ICTR-WANGLU', ip: '10.20.4.170', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
 Driver info: driver.version: ChromeDriver
@@ -93,14 +93,14 @@ Driver info: driver.version: ChromeDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="test1_loginTest()[pri:0, instance:demo.zhongpai_creatProject@4590c9c3]" name="test1_loginTest" duration-ms="1" started-at="2021-04-01T11:25:20Z" finished-at="2021-04-01T11:25:20Z">
+        <test-method status="SKIP" signature="test1_loginTest()[pri:0, instance:demo.zhongpai_creatProject@4590c9c3]" name="test1_loginTest" duration-ms="0" started-at="2021-04-01T11:20:26Z" finished-at="2021-04-01T11:20:26Z">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created
 from disconnected: received Inspector.detached event
   (Session info: chrome=68.0.3440.7)
   (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4.09 seconds
+Command duration or timeout: 12.26 seconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ICTR-WANGLU', ip: '10.20.4.170', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
 Driver info: driver.version: ChromeDriver]]>
@@ -110,7 +110,7 @@ Driver info: driver.version: ChromeDriver]]>
 from disconnected: received Inspector.detached event
   (Session info: chrome=68.0.3440.7)
   (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4.09 seconds
+Command duration or timeout: 12.26 seconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ICTR-WANGLU', ip: '10.20.4.170', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
 Driver info: driver.version: ChromeDriver
@@ -179,14 +179,14 @@ Driver info: driver.version: ChromeDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1_loginTest -->
-        <test-method status="SKIP" signature="test2_shangchuan()[pri:0, instance:demo.zhongpai_creatProject@4590c9c3]" name="test2_shangchuan" duration-ms="0" started-at="2021-04-01T11:25:20Z" finished-at="2021-04-01T11:25:20Z">
+        <test-method status="SKIP" signature="test2_shangchuan()[pri:0, instance:demo.zhongpai_creatProject@4590c9c3]" name="test2_shangchuan" duration-ms="0" started-at="2021-04-01T11:20:26Z" finished-at="2021-04-01T11:20:26Z">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created
 from disconnected: received Inspector.detached event
   (Session info: chrome=68.0.3440.7)
   (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4.09 seconds
+Command duration or timeout: 12.26 seconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ICTR-WANGLU', ip: '10.20.4.170', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
 Driver info: driver.version: ChromeDriver]]>
@@ -196,7 +196,7 @@ Driver info: driver.version: ChromeDriver]]>
 from disconnected: received Inspector.detached event
   (Session info: chrome=68.0.3440.7)
   (Driver info: chromedriver=70.0.3538.16 (16ed95b41bb05e565b11fb66ac33c660b721f778),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4.09 seconds
+Command duration or timeout: 12.26 seconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ICTR-WANGLU', ip: '10.20.4.170', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
 Driver info: driver.version: ChromeDriver
